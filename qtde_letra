@@ -1,0 +1,10 @@
+#linguagem python
+
+n = input("Digite uma palavra: ")
+cont = 0
+
+for letra in n.lower():
+    if (letra == 'a' or letra =='A'):
+        cont=cont+1
+
+print ("Quantidade de letra 'a' na palavra acima eh de: ", cont)
